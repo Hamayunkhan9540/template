@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Body img attachment */
+/* #bg-img{
+    float: left;
+    width: 50%;
+    height: fit-content;
+    background-image: url('../images/header/body_1.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#bg-img{
+    float: right;
+    width: 50%;
+    height: fit-content;
+    background-image: url('../images/header/body_2.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+/* Heaer navibar */
+.dark-pamry{
+    background-color: rgb(123, 174, 199);
+    height: 100px;
+}
+.brand{
+    width: 15%;
+    min-height: 100px;
+    background-image: url('../images/header/my_family_logo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.ul-dv{
+    margin-left:15%;
+    margin-top: -8%;
+}
+.ul-dv .ul-start{
+    list-style-type: none;
+
+}
+.ul-dv .ul-start .list-item{
+    float: left;
+    margin: 2%;
+}
+.ul-dv .ul-start .list-item .a-item{
+    text-decoration: dashed;
+    text-align: center;
+    font-size: xx-large;
+     text-transform: uppercase;
+     font-weight: 350;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-variant: inherit;
+     color: #3f3e3e;
+     word-spacing: 2%;
+}
+.ul-dv .ul-start .list-item .a-item:hover{
+    background-color: #262626;
+    font-weight: 500;
+    color: #fff;
+}
+.ul-dv .ul-start .list-item .magnifier{
+    /* background-color: #fff; */
+    width: 100%;
+    border-radius: 25%;
+    text-decoration: none;
+    line-height: 2px;
+    color: #3f3e3e;
+    font-size: x-large;
+}
+/* End Heaer navibar */
+
+/* fix blank or flashing items on carousel */
+.carousel-wrap {
+    /* margin: 90px auto; */
+    /* padding:0 5%; */
+    width: 100%;
+    position: relative;
+  }
+  .carousel-wrap .font{
+    position: absolute;
+    /* background-color: #262626; */
+    /* color: #fff; */
+    /* opacity: 0.3; */
+    /* margin-top: -31%;   */
+    /* margin-left: 24%; */
+    z-index: 1;  
+}
+.carousel-wrap .font .happy{
+    color: #fff;
+}
+  .owl-carousel .item {
+    position: relative;
+    padding: -5px;
+  }
+  .owl-carousel .item img{
+    width: 100%;
+    height: 500px;
+  }
+  /* end fix */
+  .owl-nav > div {
+    margin-top: -24px; 
+    position: absolute; 
+    top:20%;
+   
+    color: red;
+    z-index: 100;
+    -webkit-backface-visibility: hidden;
+  }
+  
+  .owl-nav i {
+    font-size: 120px;
+    height: -300px;
+    color: #fff;
+    
+  }
+  
+  .owl-nav .owl-prev {
+    position: absolute;
+    z-index: 999;
+    left: 0px;
+    margin-top: -24%;
+    opacity: 0.8;
+  }
+  
+  .owl-nav .owl-next {
+    position: absolute;
+    z-index: 99999;
+    right: 0px;
+    float: right;
+    margin-top: -24%;
+    opacity: 0.8;
+  }
+/* Animation heading */
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+body {
+  margin:0px;
+  font-family:'Roboto';
+  text-align:center;
+}
+
+#container {
+  color:#999;
+  text-transform: uppercase;
+  font-size:36px;
+  font-weight:bold;
+  padding-top:200px;  
+  position:absolute;
+  width:100%;
+  bottom:49%;
+  display:block;
+}
+
+#flip {
+  height:50px;
+  overflow:hidden;
+}
+
+#flip > div > div {
+  color:#fff;
+  padding:4px 12px;
+  height:45px;
+  margin-bottom:45px;
+  display:inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+#flip div div {
+  background:#42c58a;
+}
+#flip div:first-child div {
+  background:#4ec7f3;
+}
+#flip div:last-child div {
+  background:#DC143C;
+}
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
+/* End Animation heading */
+
+/* Contianer in column-2 */
+.bg-img-3{
+  width: 100vw;
+  height:500;
+  background-image: url(../images/header/family-walk-banner.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover1;
+}
+.bg-img-2{
+  /* width: 100vw; */
+  height:400px;
+  background-image: url(../images/header/couple-cooking.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading-4{
+  font-size: xx-large;
+  font-weight: 300;
+  font-variant: inherit;
+  font-stretch: ultra-condensed;
+  opacity: 0.7;
+  background-color: #007aaa;
+  color: #000;
+}
+.pagraph-1{
+  font-size:16px;
+  font-weight: 300;
+  font-kerning: auto;
+  word-break: keep-all;
+  opacity: 0.6;
+  color: #3f3e3e;
+  background-color: #fff;
+}
+/* End Contianer in column-2 */
+
+
+/* Video play */
+.video{
+  width: 100%;
+  min-height: 200px;
+}
+
+/* Container Column-3 */
+.card{
+  box-shadow: 7px 11px 38px -4px rgba(136, 133, 133, 0.76);
+  background-color: rgb(211, 211, 211);
+}
+.card .middle{
+  margin-top: 12%;
+  margin-left: 14%;
+}
+.imges-1{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 2px solid #003750;
+}
+.card .h-2-frederick{
+  font-size: xx-large;
+  font-weight: 300;
+  color: #0c87b8;
+  font-variant: inherit;
+  text-transform:unset;
+}
+.card .p-my-period{
+  font-size:small;
+  font-weight: 200;
+  line-height: 1.5rem;
+  opacity: 0.7;
+  color: #000;
+}
+/* End Container Column-3 */
+
+/* Footer */
+.bg-color{
+  background-color: #003750;
+  position: relative;
+}
+.imges-foter{
+  position: absolute;
+  content: "";
+  top: -50%;
+  left: 6%;
+  width: 30%;
+  height: 185px;
+}
+.fa-facebook{
+  font-size: 3em;
+  color: #00b9fc;
+}
+.fa-instagram{
+  font-size: 3em;
+  color: hsl(320, 93%, 44%);
+}
+.fa-twitter{
+  font-size: 3em;
+  color: #36bbf0;
+}
+.fa-map{
+  font-size: 3em;
+  color: #04ac60;
+}
+.fotr-list{
+  list-style-type: none;
+}
+.text-none{
+  text-decoration: none;
+  font-size: 2em;
+  color: #fff;
+  font-weight: 300;
+}
+.fa-google{
+  background-color: #fff;
+  width: 100%;
+  color: #000;
+  font-size: 3em;
+  border-radius: 15px;
+}
+/* End Footer */
+
+
+@media (max-width:992px){
+  .container-fluid{
+    height: auto;
+    width: auto;
+    justify-self: start;
+  }
+  .brand{
+    margin: 0;
+    padding: 0;
+  }
+  .ul-dv{
+    margin: 0;
+    padding: 0;
+  }
+}
